@@ -1,0 +1,11 @@
+<div class="container">     //Reactive forms
+    <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+       <label for="Name">Name</label>
+   <input type="text" formControlName="name" class="form-control" id="name">
+   <label for="email">Email</label>
+   <input type="text" formControlName="email" class="form-control" id="email">
+   <button type="Submit" class="btn btn-primary">submit</button>
+   </form>
+   </div>
+   <router-outlet></router-outlet>
+   

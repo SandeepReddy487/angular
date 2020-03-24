@@ -1,0 +1,17 @@
+<table border='4'>
+    <tr>
+        <th>id</th>
+        <th>email</th>
+         <th>firstname</th>
+        <th>lastname</th>
+    </tr>
+    <tr *ngFor='let user of getData'>
+        
+<td>{{user.userId}}</td>
+<td>{{user.id}}</td>
+<td>{{user.title}}</td>
+<td>{{user.body}}</td>
+
+    </tr>
+</table>
+<router-outlet></router-outlet>
